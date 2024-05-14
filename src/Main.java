@@ -24,7 +24,8 @@ public class Main {
                     maxPay = pay[i];
                 }
             }
-            System.out.println("Минимальная сумма трат за неделю составила " + minPay + " рублей. " + "Максимальная сумма трат за неделю составила " + maxPay + " рублей.");
+            System.out.println("Минимальная сумма трат за неделю составила " + minPay + " рублей. " +
+                    "Максимальная сумма трат за неделю составила " + maxPay + " рублей.");
         }
         System.out.println();
 
@@ -35,7 +36,7 @@ public class Main {
             for (int i = 0; i < pay.length; i++) {
                 sum += pay[i];
             }
-            double sumMonth= (double) sum / 4;
+            double sumMonth = (double) sum / 4;
             System.out.println("Средняя сумма трат за месяц составила " + sumMonth + " рублей.");
         }
         System.out.println();
